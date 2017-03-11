@@ -14,11 +14,11 @@ app.get('/artical1', function (req, res) {
   res.send('article requested and will be served');
   
 });
-app.get('/artical1', function (req, res) {
+app.get('/artical2', function (req, res) {
   res.send('article requested and will be served');
   
 });
-app.get('/artical1', function (req, res) {
+app.get('/artical3', function (req, res) {
   res.send('article requested and will be served');
   
 });
