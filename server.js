@@ -22,6 +22,9 @@ app.get('/artical3', function (req, res) {
   res.send('article requested and will be served');
   
 });
+app.get('/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+});
 
 
 
